@@ -5,10 +5,10 @@ import os
 import email
 from email.header import decode_header  # Importando a função para decodificar o título
 
-BOT_KEY = "Telegram_Token"
+BOT_KEY = "7614138298:AAH6182fESdtShEPL42K4SE-qqImp0EsZZc"
 
-EMAIL = "SEU_GMAIL" 
-SENHA = "SUA_SENHA"
+EMAIL = "newsletterbot01@gmail.com" 
+SENHA = "znpy uvwk jzvc kpum"
 
 bot = telebot.TeleBot(BOT_KEY)
 
@@ -106,7 +106,7 @@ def send_welcome(message):
         else:
             bot.send_message(chat_id, "Não foi possível processar o conteúdo do email.", parse_mode='MarkdownV2')
     else:
-        bot.send_message(chat_id, escapar_markdown("Nenhum email encontrado."), parse_mode='MarkdownV2')
+        bot.send_message(chat_id, escapar_markdown("Nenhum Atualização Encontrada."), parse_mode='MarkdownV2')
 
 
 bot.polling()
