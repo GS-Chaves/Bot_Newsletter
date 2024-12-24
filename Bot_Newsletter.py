@@ -5,7 +5,7 @@ import os
 import email
 from email.header import decode_header  # Importando a função para decodificar o título
 
-BOT_KEY = "7614138298:AAH6182fESdtShEPL42K4SE-qqImp0EsZZc"
+BOT_KEY = "Telegram_Token"
 
 EMAIL = "SEU_GMAIL" 
 SENHA = "SUA_SENHA"
